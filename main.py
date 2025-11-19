@@ -19,5 +19,6 @@ def main():
     for char in sorted_chars:
         if char["name"].isalpha():
             print(f"{char["name"]}: {char["count"]}")
+    print("============= END ===============")
 
 main()
